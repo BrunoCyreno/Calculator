@@ -42,7 +42,7 @@ namespace CalculatorLibrary
                     result = num1 * num2;
                     writer.WriteValue("Multiply");
                     break;
-                case "d"
+                case "d":
 
                     if (num2 != 0)
                     {
