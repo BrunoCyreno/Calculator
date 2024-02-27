@@ -62,7 +62,11 @@ class Program
             if (Console.ReadLine() == "n") endApp = true;
 
             Console.WriteLine("\n");
+
+            calculator.Finish();
             return;
+        }
+        return;
         }
     }
 }
